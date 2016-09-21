@@ -1,0 +1,362 @@
+<?xml version="1.0" standalone="yes"?>
+<BookLending>
+  <Book>
+    <Id>1</Id>
+    <CommonName>Цифрова фортеця</CommonName>
+    <GenreId>4</GenreId>
+    <Description>Захопливий роман від автора «Коду да Вінчі». Браун пропонує вам розгадати ще один код — надскладний, який приховує загрозу для всього світу!
+
+Мережа Інтернет, яка оповила весь світ своїм павутинням, приховує страшну небезпеку. Невідомий ставить під загрозу особисте життя кожного.
+Зброя загадкового ворога — лише набір символів і літер. Знешкодити її береться кращий шифрувальник США Сюзанна Флетчер. Але творець таємничого коду мертвий, а ключ до шифру, здається, безслідно втрачено...
+Запеклий двобій в Інтернеті стирає межі між добром і злом.</Description>
+  </Book>
+  <Book>
+    <Id>2</Id>
+    <CommonName>Квіти на горищі</CommonName>
+    <GenreId>3</GenreId>
+    <Description>Залишившись вдовою Корін Доллагэнгер та її четверо дітей залишилися без засобів до існування. Це був важкий час: ні грошей, ні роботи. Корін довелося зробити те, чого вона менше всього бажала - переїхати жити до батьків. Це були жадібні і жорстокі люди. Її батько навіть позбавив Корін спадщини з-за того, що вона вийшла заміж не дивлячись на заборону батька. Щоб ще більше не дратувати батька, Корін домовившись з матір'ю ховає дітей в кімнаті. Дітям суворо-пресуворо заборонили з'являтися в будинку,щоб їх не побачив дідусь. Горище - єдине місце, де вони можуть грати. Корін все ж вдалося розташувати батька до себе і він поновлює її право на спадщину. Але вся біда в тому, що діти - єдина перешкода на шляху до багатства і розкішного життя...</Description>
+    <Site>http://vse-online.net/news/kviti_na_gorishhi_cvety_na_cherdake_2014/2014-02-12-7023</Site>
+  </Book>
+  <Book>
+    <Id>3</Id>
+    <CommonName>Маленький принц</CommonName>
+    <GenreId>4</GenreId>
+    <Description />
+    <Site />
+    <Note />
+  </Book>
+  <Book>
+    <Id>4</Id>
+    <CommonName>Кіт в чоботях</CommonName>
+    <GenreId>1</GenreId>
+    <Description>Іронічна комедія зображує постановку відомої чарівної казки на сцені німецького театру кінця XVIII століття. Спектакль перетворюється на інтерактивне дійство, в якому беруть участь автор п'єси, що виходять з ролей актори і вимогливі глядачі.</Description>
+    <Site>http://www.litmir.net/bs/?g=sg230</Site>
+  </Book>
+  <Book>
+    <Id>5</Id>
+    <CommonName>Пісня полум'я та льоду</CommonName>
+    <GenreId>5</GenreId>
+  </Book>
+  <Book>
+    <Id>6</Id>
+    <CommonName>Час знижок в пеклі</CommonName>
+    <GenreId>2</GenreId>
+  </Book>
+  <EditionBooks>
+    <EditionId>1</EditionId>
+    <BookId>1</BookId>
+  </EditionBooks>
+  <EditionBooks>
+    <EditionId>2</EditionId>
+    <BookId>1</BookId>
+  </EditionBooks>
+  <EditionBooks>
+    <EditionId>3</EditionId>
+    <BookId>3</BookId>
+  </EditionBooks>
+  <EditionBooks>
+    <EditionId>2</EditionId>
+    <BookId>3</BookId>
+  </EditionBooks>
+  <EditionBooks>
+    <EditionId>3</EditionId>
+    <BookId>4</BookId>
+  </EditionBooks>
+  <EditionBooks>
+    <EditionId>1</EditionId>
+    <BookId>4</BookId>
+  </EditionBooks>
+  <EditionBooks>
+    <EditionId>2</EditionId>
+    <BookId>2</BookId>
+  </EditionBooks>
+  <EditionBooks>
+    <EditionId>2</EditionId>
+    <BookId>5</BookId>
+  </EditionBooks>
+  <EditionBooks>
+    <EditionId>4</EditionId>
+    <BookId>5</BookId>
+  </EditionBooks>
+  <EditionBooks>
+    <EditionId>4</EditionId>
+    <BookId>6</BookId>
+  </EditionBooks>
+  <Person>
+    <Id>1</Id>
+    <FirstName>Марія</FirstName>
+    <LastName>Величко</LastName>
+    <Note>Бібліотекар</Note>
+  </Person>
+  <Person>
+    <Id>2</Id>
+    <FirstName>Василь</FirstName>
+    <LastName>Чупира</LastName>
+    <Note>Бібліотекар</Note>
+  </Person>
+  <Person>
+    <Id>3</Id>
+    <FirstName>Ден</FirstName>
+    <LastName>Браун</LastName>
+    <Note>Автор Цифрової фортеці</Note>
+  </Person>
+  <Person>
+    <Id>4</Id>
+    <FirstName>Джеймс</FirstName>
+    <LastName>Тор</LastName>
+    <Note>Редактор Цифрової фортеці</Note>
+  </Person>
+  <Person>
+    <Id>5</Id>
+    <FirstName>Вірджинія</FirstName>
+    <LastName>Ендрюс</LastName>
+  </Person>
+  <Person>
+    <Id>6</Id>
+    <FirstName>Емілі</FirstName>
+    <LastName>Кенеді</LastName>
+  </Person>
+  <Person>
+    <Id>7</Id>
+    <FirstName>Антуан де</FirstName>
+    <LastName>Сент-Экзюпери</LastName>
+  </Person>
+  <Person>
+    <Id>8</Id>
+    <FirstName>Риккардо</FirstName>
+    <LastName>Коччанте</LastName>
+  </Person>
+  <Person>
+    <Id>9</Id>
+    <FirstName>Шарль</FirstName>
+    <LastName>Перро</LastName>
+  </Person>
+  <Person>
+    <Id>10</Id>
+    <FirstName>Джордж</FirstName>
+    <LastName>Мартін</LastName>
+  </Person>
+  <Person>
+    <Id>11</Id>
+    <FirstName>Тед</FirstName>
+    <LastName>Уільямс</LastName>
+  </Person>
+  <Person>
+    <Id>12</Id>
+    <FirstName>Віктор</FirstName>
+    <LastName>Васильченко</LastName>
+  </Person>
+  <Person>
+    <Id>13</Id>
+    <FirstName>Валентина</FirstName>
+    <LastName>Миколюк</LastName>
+  </Person>
+  <Person>
+    <Id>14</Id>
+    <FirstName>Петро</FirstName>
+    <LastName>Верительник</LastName>
+  </Person>
+  <BookList>
+    <Id>1</Id>
+    <BookId>1</BookId>
+    <NumberOfBooks>5</NumberOfBooks>
+  </BookList>
+  <BookList>
+    <Id>2</Id>
+    <BookId>2</BookId>
+    <NumberOfBooks>7</NumberOfBooks>
+  </BookList>
+  <BookList>
+    <Id>3</Id>
+    <BookId>3</BookId>
+    <NumberOfBooks>3</NumberOfBooks>
+  </BookList>
+  <BookList>
+    <Id>4</Id>
+    <BookId>4</BookId>
+    <NumberOfBooks>5</NumberOfBooks>
+  </BookList>
+  <BookList>
+    <Id>5</Id>
+    <BookId>5</BookId>
+    <NumberOfBooks>10</NumberOfBooks>
+  </BookList>
+  <BookList>
+    <Id>6</Id>
+    <BookId>6</BookId>
+    <NumberOfBooks>1</NumberOfBooks>
+  </BookList>
+  <BookList>
+    <Id>7</Id>
+    <BookId>5</BookId>
+    <NumberOfBooks>2</NumberOfBooks>
+  </BookList>
+  <BookList>
+    <Id>8</Id>
+    <BookId>5</BookId>
+    <NumberOfBooks>5</NumberOfBooks>
+  </BookList>
+  <Edition>
+    <Id>1</Id>
+    <CommonName>Caravela</CommonName>
+    <Site>http://www.caravela.kiev.ua/</Site>
+    <Note />
+  </Edition>
+  <Edition>
+    <Id>2</Id>
+    <CommonName>New Time</CommonName>
+    <Site>http://newtime.pro</Site>
+    <Note>навчальна література з іноземних мов</Note>
+  </Edition>
+  <Edition>
+    <Id>3</Id>
+    <CommonName>А-БА-БА-ГА-ЛА-МА-ГА</CommonName>
+    <Site>http://www.ababahalamaha.com.ua/</Site>
+    <Note>дитяча література</Note>
+  </Edition>
+  <Edition>
+    <Id>4</Id>
+    <CommonName>Країна Мрій</CommonName>
+  </Edition>
+  <FuncPerson>
+    <BookId>1</BookId>
+    <PersonId>3</PersonId>
+    <FunctionId>1</FunctionId>
+  </FuncPerson>
+  <FuncPerson>
+    <BookId>1</BookId>
+    <PersonId>4</PersonId>
+    <FunctionId>2</FunctionId>
+  </FuncPerson>
+  <FuncPerson>
+    <BookId>2</BookId>
+    <PersonId>5</PersonId>
+    <FunctionId>1</FunctionId>
+  </FuncPerson>
+  <FuncPerson>
+    <BookId>2</BookId>
+    <PersonId>6</PersonId>
+    <FunctionId>2</FunctionId>
+  </FuncPerson>
+  <FuncPerson>
+    <BookId>3</BookId>
+    <PersonId>7</PersonId>
+    <FunctionId>1</FunctionId>
+  </FuncPerson>
+  <FuncPerson>
+    <BookId>3</BookId>
+    <PersonId>8</PersonId>
+    <FunctionId>2</FunctionId>
+  </FuncPerson>
+  <FuncPerson>
+    <BookId>4</BookId>
+    <PersonId>9</PersonId>
+    <FunctionId>1</FunctionId>
+  </FuncPerson>
+  <FuncPerson>
+    <BookId>5</BookId>
+    <PersonId>10</PersonId>
+    <FunctionId>1</FunctionId>
+  </FuncPerson>
+  <FuncPerson>
+    <BookId>6</BookId>
+    <PersonId>11</PersonId>
+    <FunctionId>1</FunctionId>
+  </FuncPerson>
+  <Function>
+    <Id>1</Id>
+    <CommonName>Автор</CommonName>
+    <Description>Пише книги</Description>
+  </Function>
+  <Function>
+    <Id>2</Id>
+    <CommonName>Редактор</CommonName>
+    <Description>Редагує книги</Description>
+  </Function>
+  <Genre>
+    <Id>1</Id>
+    <CommonName>Комедія</CommonName>
+    <Description>Драматичний твір, у якому засобами гумору та сатири викриваються негативні суспільні та побутові явища, розкривається смішне в навколишній дійсності чи людині або тварині.</Description>
+    <Site>https://uk.wikipedia.org/wiki/Комедія</Site>
+    <Note />
+  </Genre>
+  <Genre>
+    <Id>2</Id>
+    <CommonName>Жахи</CommonName>
+    <Description>жанр художественной литературы, имеющий целью вызвать у читателя чувство страха. Сроден одновременно жанрам фэнтези и мистики, хотя все из них представляют отдельные развития в фикции (мистика и ужасы, тем не менее, часто классифицируют в одну подгруппу фантастики из-за многочисленных сходств, но различия в них есть), а ужасы далеко не всегда являются фикцией. Представители жанра имеют как абсолютно необъяснимые сюжетные описания, так и фикцию, основанную на реальных событиях («психологические триллеры», например, вообще не допускают ни единого фантастического элемента).</Description>
+    <Note />
+  </Genre>
+  <Genre>
+    <Id>3</Id>
+    <CommonName>Драма</CommonName>
+    <Note />
+  </Genre>
+  <Genre>
+    <Id>4</Id>
+    <CommonName>Наукова фантастика</CommonName>
+    <Description> жанр у літературі й кіно; фантастика, в основі якої полягають роздуми на теми науки та нових технологій. Досить часто, вживаючи термін «фантастика», мають на увазі саме наукову фантастику.</Description>
+    <Site />
+    <Note />
+  </Genre>
+  <Genre>
+    <Id>5</Id>
+    <CommonName>Фентезі</CommonName>
+  </Genre>
+  <Librarian>
+    <Id>1</Id>
+    <PersonId>1</PersonId>
+    <Ocupation>Головний Бібліотекар</Ocupation>
+  </Librarian>
+  <Librarian>
+    <Id>2</Id>
+    <PersonId>2</PersonId>
+    <Ocupation>Бібліотекар</Ocupation>
+  </Librarian>
+  <Order>
+    <NumberOfOrder>1</NumberOfOrder>
+    <LibrarianId>1</LibrarianId>
+    <BooklistId>1</BooklistId>
+    <ReaderId>1</ReaderId>
+    <DateOfIssue>2014-06-17T00:00:00+03:00</DateOfIssue>
+    <DateOfAdmission>2014-06-20T00:00:00+03:00</DateOfAdmission>
+  </Order>
+  <Order>
+    <NumberOfOrder>2</NumberOfOrder>
+    <LibrarianId>2</LibrarianId>
+    <BooklistId>7</BooklistId>
+    <ReaderId>3</ReaderId>
+    <DateOfIssue>2014-06-19T00:00:00+03:00</DateOfIssue>
+    <DateOfAdmission>2014-06-29T00:00:00+03:00</DateOfAdmission>
+  </Order>
+  <Order>
+    <NumberOfOrder>3</NumberOfOrder>
+    <LibrarianId>1</LibrarianId>
+    <BooklistId>6</BooklistId>
+    <ReaderId>2</ReaderId>
+    <DateOfIssue>2014-06-03T00:00:00+03:00</DateOfIssue>
+    <DateOfAdmission>2014-06-05T00:00:00+03:00</DateOfAdmission>
+  </Order>
+  <Order>
+    <NumberOfOrder>4</NumberOfOrder>
+    <LibrarianId>2</LibrarianId>
+    <BooklistId>2</BooklistId>
+    <ReaderId>2</ReaderId>
+    <DateOfIssue>2014-06-10T00:00:00+03:00</DateOfIssue>
+    <DateOfAdmission>2014-06-11T00:00:00+03:00</DateOfAdmission>
+  </Order>
+  <Reader>
+    <Id>1</Id>
+    <NumberTicket>1</NumberTicket>
+    <PersonId>12</PersonId>
+  </Reader>
+  <Reader>
+    <Id>2</Id>
+    <NumberTicket>2</NumberTicket>
+    <PersonId>13</PersonId>
+  </Reader>
+  <Reader>
+    <Id>3</Id>
+    <NumberTicket>3</NumberTicket>
+    <PersonId>14</PersonId>
+  </Reader>
+</BookLending>

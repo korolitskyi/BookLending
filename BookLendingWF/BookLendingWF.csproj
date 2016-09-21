@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29E6DB04-B1EC-43D4-8E2E-08378979D129}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BookLendingWF</RootNamespace>
+    <AssemblyName>BookLendingWF</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataTableForms\FBookListTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataTableForms\FBookListTable.Designer.cs">
+      <DependentUpon>FBookListTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataTableForms\FBookTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataTableForms\FBookTable.Designer.cs">
+      <DependentUpon>FBookTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataTableForms\FEditionBooksTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataTableForms\FEditionBooksTable.Designer.cs">
+      <DependentUpon>FEditionBooksTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataTableForms\FEditionTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataTableForms\FEditionTable.Designer.cs">
+      <DependentUpon>FEditionTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataTableForms\FFuncPersonTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataTableForms\FFuncPersonTable.Designer.cs">
+      <DependentUpon>FFuncPersonTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataTableForms\FFunctionTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataTableForms\FFunctionTable.Designer.cs">
+      <DependentUpon>FFunctionTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataTableForms\FGenreTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataTableForms\FGenreTable.Designer.cs">
+      <DependentUpon>FGenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataTableForms\FLibrarianTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataTableForms\FLibrarianTable.Designer.cs">
+      <DependentUpon>FLibrarianTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataTableForms\FOrderTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataTableForms\FOrderTable.Designer.cs">
+      <DependentUpon>FOrderTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataTableForms\FPersonTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataTableForms\FPersonTable.Designer.cs">
+      <DependentUpon>FPersonTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataTableForms\FReaderTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataTableForms\FReaderTable.Designer.cs">
+      <DependentUpon>FReaderTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRepository.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRepository.Designer.cs">
+      <DependentUpon>FRepository.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FTextInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTextInfo.Designer.cs">
+      <DependentUpon>FTextInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryController.Data.cs" />
+    <Compile Include="RepositoryController.IO.cs" />
+    <EmbeddedResource Include="DataTableForms\FBookListTable.resx">
+      <DependentUpon>FBookListTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataTableForms\FBookTable.resx">
+      <DependentUpon>FBookTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataTableForms\FEditionBooksTable.resx">
+      <DependentUpon>FEditionBooksTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataTableForms\FEditionTable.resx">
+      <DependentUpon>FEditionTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataTableForms\FFuncPersonTable.resx">
+      <DependentUpon>FFuncPersonTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataTableForms\FFunctionTable.resx">
+      <DependentUpon>FFunctionTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataTableForms\FGenreTable.resx">
+      <DependentUpon>FGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataTableForms\FLibrarianTable.resx">
+      <DependentUpon>FLibrarianTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataTableForms\FOrderTable.resx">
+      <DependentUpon>FOrderTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataTableForms\FPersonTable.resx">
+      <DependentUpon>FPersonTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataTableForms\FReaderTable.resx">
+      <DependentUpon>FReaderTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRepository.resx">
+      <DependentUpon>FRepository.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTextInfo.resx">
+      <DependentUpon>FTextInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BookLendingCL\BookLendingCL.csproj">
+      <Project>{6BE67DFF-B2AD-4173-8363-764126BA8D42}</Project>
+      <Name>BookLendingCL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StudyFormsLibrary\StudyFormsLibrary.csproj">
+      <Project>{e2cde601-deee-4b40-bd1b-51b082102764}</Project>
+      <Name>StudyFormsLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

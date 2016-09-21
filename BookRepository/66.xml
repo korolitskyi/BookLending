@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<BookLending>
+  <Book>
+    <Id>1</Id>
+    <CommonName>1</CommonName>
+    <GenreId>1</GenreId>
+  </Book>
+  <Person>
+    <Id>1</Id>
+    <FirstName>1</FirstName>
+    <LastName>1</LastName>
+  </Person>
+  <Genre>
+    <Id>1</Id>
+    <CommonName>1</CommonName>
+  </Genre>
+</BookLending>

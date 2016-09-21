@@ -1,0 +1,202 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="BookLending" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="BookLending" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Book">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="GenreId" type="xs:int" minOccurs="0" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Site" type="xs:string" minOccurs="0" />
+              <xs:element name="Note" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EditionBooks">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EditionId" type="xs:int" minOccurs="0" />
+              <xs:element name="BookId" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Person">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="FirstName" type="xs:string" minOccurs="0" />
+              <xs:element name="LastName" type="xs:string" minOccurs="0" />
+              <xs:element name="Note" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BookList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="BookId" type="xs:int" minOccurs="0" />
+              <xs:element name="NumberOfBooks" type="xs:int" minOccurs="0" />
+              <xs:element name="Note" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Edition">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Site" type="xs:string" minOccurs="0" />
+              <xs:element name="Note" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FuncPerson">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BookId" type="xs:int" minOccurs="0" />
+              <xs:element name="PersonId" type="xs:int" minOccurs="0" />
+              <xs:element name="FunctionId" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Function">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Genre">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Site" type="xs:string" minOccurs="0" />
+              <xs:element name="Note" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Librarian">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="PersonId" type="xs:int" minOccurs="0" />
+              <xs:element name="Ocupation" type="xs:string" minOccurs="0" />
+              <xs:element name="Note" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Order">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NumberOfOrder" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+              <xs:element name="LibrarianId" type="xs:int" minOccurs="0" />
+              <xs:element name="BooklistId" type="xs:int" minOccurs="0" />
+              <xs:element name="ReaderId" type="xs:int" minOccurs="0" />
+              <xs:element name="DateOfIssue" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DateOfAdmission" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Note" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Reader">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+              <xs:element name="NumberTicket" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+              <xs:element name="PersonId" type="xs:int" minOccurs="0" />
+              <xs:element name="Note" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Book" />
+      <xs:field xpath="Id" />
+    </xs:unique>
+    <xs:unique name="Person_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Person" />
+      <xs:field xpath="Id" />
+    </xs:unique>
+    <xs:unique name="BookList_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//BookList" />
+      <xs:field xpath="Id" />
+    </xs:unique>
+    <xs:unique name="Edition_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Edition" />
+      <xs:field xpath="Id" />
+    </xs:unique>
+    <xs:unique name="Function_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Function" />
+      <xs:field xpath="Id" />
+    </xs:unique>
+    <xs:unique name="Genre_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Genre" />
+      <xs:field xpath="Id" />
+    </xs:unique>
+    <xs:unique name="Librarian_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Librarian" />
+      <xs:field xpath="Id" />
+    </xs:unique>
+    <xs:unique name="Reader_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Reader" />
+      <xs:field xpath="Id" />
+    </xs:unique>
+    <xs:keyref name="Person_Reader" refer="Person_Constraint1">
+      <xs:selector xpath=".//Reader" />
+      <xs:field xpath="PersonId" />
+    </xs:keyref>
+    <xs:keyref name="Order_Reader" refer="Reader_Constraint1">
+      <xs:selector xpath=".//Order" />
+      <xs:field xpath="ReaderId" />
+    </xs:keyref>
+    <xs:keyref name="Order_Librarian" refer="Librarian_Constraint1">
+      <xs:selector xpath=".//Order" />
+      <xs:field xpath="LibrarianId" />
+    </xs:keyref>
+    <xs:keyref name="BookList_Order" refer="BookList_Constraint1">
+      <xs:selector xpath=".//Order" />
+      <xs:field xpath="BooklistId" />
+    </xs:keyref>
+    <xs:keyref name="Person_Librarian" refer="Person_Constraint1">
+      <xs:selector xpath=".//Librarian" />
+      <xs:field xpath="PersonId" />
+    </xs:keyref>
+    <xs:keyref name="Person_FuncPerson" refer="Person_Constraint1">
+      <xs:selector xpath=".//FuncPerson" />
+      <xs:field xpath="PersonId" />
+    </xs:keyref>
+    <xs:keyref name="Function_FuncPerson" refer="Function_Constraint1">
+      <xs:selector xpath=".//FuncPerson" />
+      <xs:field xpath="FunctionId" />
+    </xs:keyref>
+    <xs:keyref name="Book_FuncPerson" refer="Constraint1">
+      <xs:selector xpath=".//FuncPerson" />
+      <xs:field xpath="BookId" />
+    </xs:keyref>
+    <xs:keyref name="Book_BookList" refer="Constraint1">
+      <xs:selector xpath=".//BookList" />
+      <xs:field xpath="BookId" />
+    </xs:keyref>
+    <xs:keyref name="EditionBooks_Edition" refer="Edition_Constraint1">
+      <xs:selector xpath=".//EditionBooks" />
+      <xs:field xpath="EditionId" />
+    </xs:keyref>
+    <xs:keyref name="EditionBooks_Book" refer="Constraint1">
+      <xs:selector xpath=".//EditionBooks" />
+      <xs:field xpath="BookId" />
+    </xs:keyref>
+    <xs:keyref name="Book_Genre" refer="Genre_Constraint1">
+      <xs:selector xpath=".//Book" />
+      <xs:field xpath="GenreId" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>
